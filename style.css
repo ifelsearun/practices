@@ -1,36 +1,19 @@
-
-.container{
+.container {
     background: pink;
-    border: 4px solid red;
-    height: 1000px;
-    padding: 24px;
-    display: block;
+    border: 4px solid rgb(0, 166, 255);
+    padding: 50px;
+    display: flex;
 }
 
-.item {
-    margin: auto 10px;
+.container div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    width:250px;
+    flex: 1 1 auto;
 }
 
-#item1 {
-    background: rgb(0, 204, 255);
-    border: 2px solid rgb(255, 0, 0);
-    height: 200px;
-    margin:10px;
-    flex:1;
-}
-
-#item2 {
-    background: rgb(0, 204, 255);
-    border: 2px solid rgb(255, 0, 0);
-    height: 400px;
-    margin: 10px;
-    flex:1;
-}
-
-#item3 {
-    background: rgb(0, 204, 255);
-    border: 2px solid rgb(255, 0, 0);
-    height: 200px;
-    margin:10px;
-    flex:1;
+.container #item2 {
+    flex-grow: 2;
+    flex-shrink: 0;
 }
