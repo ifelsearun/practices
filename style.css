@@ -1,19 +1,28 @@
-.container {
-    background: pink;
-    border: 4px solid rgb(0, 166, 255);
-    padding: 50px;
+body {
+    min-height: 800px;
+    border: 8px solid rgba(255, 255, 255, 0.533);
     display: flex;
+    gap:20px;
+    background: black;
+    justify-content: center;
+
 }
 
-.container div {
-    background: peachpuff;
-    border: 4px solid brown;
-    height: 100px;
-    width:250px;
-    flex: 1 1 auto;
+#id {
+    align-self: flex-start;
+    margin-right: auto;
+    flex-grow: 0;
 }
 
-.container #item2 {
-    flex-grow: 2;
-    flex-shrink: 0;
+.box {
+    flex-grow: 0;
+    flex-shrink: 1;
+    height:150px;
+    width: 150px;
+    background-color: rgb(48, 48, 48);
+    font-size:24px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
