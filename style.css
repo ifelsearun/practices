@@ -1,28 +1,19 @@
 body {
-    min-height: 800px;
-    border: 8px solid rgba(255, 255, 255, 0.533);
+    border: 5px solid violet;
+    min-height: 500px;
     display: flex;
-    gap:20px;
-    background: black;
+    gap:50px;
+    flex-direction: row;
     justify-content: center;
-
-}
-
-#id {
-    align-self: flex-start;
-    margin-right: auto;
-    flex-grow: 0;
+    align-items: center;
 }
 
 .box {
-    flex-grow: 0;
-    flex-shrink: 1;
-    height:150px;
-    width: 150px;
-    background-color: rgb(48, 48, 48);
-    font-size:24px;
-    color: white;
-    display: flex;
+    display:inherit;
+    border: 5px solid violet;
+    height: 100px;
+    width: 100px;
     justify-content: center;
     align-items: center;
+
 }
